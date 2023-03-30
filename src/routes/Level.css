@@ -1,0 +1,70 @@
+.mask{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.intro-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+}
+
+.hero .contentLevel{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 15%;
+    left: 50%;
+    text-align: center;
+}
+
+.hero .contentLevel h1{
+    font-size: 3rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contentLevel .btn{
+    width: 500px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.col2{
+    margin: 50px;
+}
+
+.linkdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    height: 40px;
+}
+
+@media screen and (max-width: 640px){
+    .contentLevel .btn{
+        width: 400px;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ArabicAdventure/static/css/main.fd9f0811.css",
+    "main.js": "/ArabicAdventure/static/js/main.5b0e4802.js",
+    "static/media/desert.png": "/ArabicAdventure/static/media/desert.4adcfc500a93302e6f4d.png",
+    "static/media/HomeImg.png": "/ArabicAdventure/static/media/HomeImg.c96d937c752057a26027.png",
+    "static/media/SnowPath.png": "/ArabicAdventure/static/media/SnowPath.e0196c0cb8e9347a36ca.png",
+    "static/media/place2.png": "/ArabicAdventure/static/media/place2.0b99f8adcb1eb8fb9a55.png",
+    "static/media/place.png": "/ArabicAdventure/static/media/place.70f1b12fde4c9b6ea88f.png",
+    "index.html": "/ArabicAdventure/index.html",
+    "main.fd9f0811.css.map": "/ArabicAdventure/static/css/main.fd9f0811.css.map",
+    "main.5b0e4802.js.map": "/ArabicAdventure/static/js/main.5b0e4802.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd9f0811.css",
+    "static/js/main.5b0e4802.js"
+  ]
+}
